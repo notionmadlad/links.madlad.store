@@ -60,7 +60,7 @@ export default function Home() {
       </section>
       <div className="fixed top-5 left-5 flex justify-between gap-5 z-[9999]">
         {Object.keys(footerLinks).map((link) => (
-          <Link className="text-muted-foreground text-[14px] p-2 bg-card rounded-md leading-6" href={footerLinks[link]} key={link}>
+          <Link className="text-card-foreground border border-border text-[14px] p-2 bg-card rounded-md leading-6" href={footerLinks[link]} key={link}>
             {link}
           </Link>
         ))}
