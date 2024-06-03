@@ -1,12 +1,21 @@
 import { generateURL } from "@/lib/utils";
-import { AppWindow, Banknote, Check, Instagram, Linkedin, Mail, Twitter, UserRoundCheck } from "lucide-react";
+import {
+  AppWindow,
+  Banknote,
+  Check,
+  Instagram,
+  Linkedin,
+  Mail,
+  Twitter,
+  UserRoundCheck,
+} from "lucide-react";
 import Link from "next/link";
 
 export const faqs = {
   q1: {
     title: (
       <span>
-        <AppWindow className="inline-flex size-[26px] mr-1" /> What is Notion?
+        <AppWindow className="mr-1 inline-flex size-[26px]" /> What is Notion?
       </span>
     ),
     content: (
@@ -20,7 +29,7 @@ export const faqs = {
   q2: {
     title: (
       <span>
-        <Banknote className="inline-flex size-[26px] mr-1" /> Will I need to pay
+        <Banknote className="mr-1 inline-flex size-[26px]" /> Will I need to pay
         for a Notion subscription?
       </span>
     ),
@@ -33,7 +42,7 @@ export const faqs = {
   q3: {
     title: (
       <span>
-        <Check className="inline-flex size-[26px] mr-1" /> How will I receive a
+        <Check className="mr-1 inline-flex size-[26px]" /> How will I receive a
         template?
       </span>
     ),
@@ -47,7 +56,7 @@ export const faqs = {
   q4: {
     title: (
       <span>
-        <UserRoundCheck className="inline-flex size-[26px] mr-1" /> How can I
+        <UserRoundCheck className="mr-1 inline-flex size-[26px]" /> How can I
         become an affiliate?
       </span>
     ),
@@ -66,7 +75,7 @@ export const faqs = {
   q5: {
     title: (
       <span>
-        <Mail className="inline-flex size-[26px] mr-1" /> Have more questions?
+        <Mail className="mr-1 inline-flex size-[26px]" /> Have more questions?
       </span>
     ),
     content: (
@@ -89,39 +98,39 @@ export const mainLinks = {
     title: "The Madlad Gumroad",
     link: generateURL("gumroad"),
     image: "/madlad-logo.png",
-    content: "The Best Notion Templates on the Internet"
+    content: "The Best Notion Templates on the Internet",
   },
   l2: {
     title: "The Madlad Store",
     link: generateURL("store"),
     image: "/madlad-logo.png",
-    content: "Discover the best Website and Notion Templates"
+    content: "Discover the best Website and Notion Templates",
   },
   l3: {
     title: "The Madlad Blog",
     link: generateURL("blog"),
     image: "/madlad-logo.png",
-    content: "Read about Notion, Programming and Websites"
-  }
-}
+    content: "Read about Notion, Programming and Websites",
+  },
+};
 
 export const socialLinks = {
   l1: {
     title: "Twitter (X)",
     link: generateURL("twitter"),
-    icon: Twitter
+    icon: Twitter,
   },
   l2: {
     title: "Instagram",
     link: generateURL("instagram"),
-    icon: Instagram
+    icon: Instagram,
   },
   l3: {
     title: "LinkedIn",
     link: generateURL("linkedin"),
-    icon: Linkedin
-  }
-}
+    icon: Linkedin,
+  },
+};
 
 export const footerLinks = {
   "Terms of Service": generateURL("local:tos"),

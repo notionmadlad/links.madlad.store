@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <div className="fixed top-5 right-5 z-[9999]">
+        <div className="fixed right-5 top-5 z-[9999]">
           <ThemeSwitcher />
         </div>
         {children}
