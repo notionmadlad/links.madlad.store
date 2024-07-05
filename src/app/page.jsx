@@ -60,18 +60,6 @@ export default function Home() {
                   );
                 })}
               </div>
-              <div className="absolute left-0 right-0 top-0 h-screen">
-                <SparklesCore
-                  id="tsparticlesfullpage"
-                  background="transparent"
-                  minSize={0.3}
-                  maxSize={1}
-                  particleDensity={60}
-                  className="h-full w-full"
-                  particleColor="#777777"
-                />
-              </div>
-              <BackgroundBeams />
             </div>
           </div>
         </div>
