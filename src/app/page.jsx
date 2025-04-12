@@ -67,7 +67,7 @@ export default function Home() {
       <div className="fixed left-5 top-5 z-[9999] flex justify-between gap-5">
         {Object.keys(footerLinks).map((link) => (
           <Link
-            className="rounded-md border border-border bg-card p-2 text-[14px] leading-6 text-card-foreground"
+            className="rounded-md border border-border bg-card p-2 text-[14px] leading-6 text-card-foreground underline"
             href={footerLinks[link]}
             key={link}
           >
